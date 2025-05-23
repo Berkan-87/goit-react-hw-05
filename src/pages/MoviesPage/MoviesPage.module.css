@@ -52,12 +52,12 @@ h1 {
 
 @media (max-width: 480px) {
   input[type="text"] {
-    max-width: 100%;
+    max-width: 60%;
     font-size: 14px;
   }
 
   button {
-    width: 100%;
+    width: 60%;
     font-size: 14px;
   }
 
