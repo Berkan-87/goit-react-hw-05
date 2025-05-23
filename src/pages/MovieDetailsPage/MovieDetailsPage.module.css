@@ -1,0 +1,82 @@
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px;
+}
+
+.goBack {
+  color: white;
+  background: #ff1867;
+  padding: 8px 18px;
+  border-radius: 5px;
+  transition: background 0.3s;
+  align-self: flex-start;
+}
+
+.goBack:hover {
+  background: #d4155c;
+}
+ 
+.details {
+  display: flex;
+  gap: 30px;
+  max-width: 900px;
+}
+
+.details img {
+  max-width: 500px;
+  border-radius: 8px;
+}
+
+.info {
+  flex: 1;
+}
+
+.info h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+ 
+.info p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+ 
+.info h3 {
+  margin-top: 15px;
+}
+
+.additionalInfo {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 15px;
+}
+ 
+.additionalInfo a {
+  text-decoration: none;
+  color: white;
+  background: #ff1867;
+  padding: 8px 16px;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.additionalInfo a:hover {
+  background: #d4155c;
+}
+ 
+.castReviewsContainer {
+  display: flex;
+  max-width: 800px;
+  height: 500px;
+  gap: 20px;
+}
+ 
+.reviews {
+  font-size: 14px;
+  width: 350px;
+  overflow-y: auto;
+}
